@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+    to {
+        -webkit-transform: scale(1, 1);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1.5, 1.5);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+.carousel-inner .carousel-item > img {
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+}
+
+.linear-gradient {
+    background: linear-gradient(#d5a675, white);
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+.nav-link {
+    color: black !important;
+    padding-left: 80px !important;
+    text-shadow: blanchedalmond;
+}
+.nav-iteam {
+    padding-left: 50px !important;
+}
+.photo1 {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}

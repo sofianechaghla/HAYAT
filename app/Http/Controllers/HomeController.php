@@ -29,4 +29,9 @@ class HomeController extends Controller
     {
         return view('about');
     }
+    public function action()
+    {
+        return view('action');
+    }
+   
 }

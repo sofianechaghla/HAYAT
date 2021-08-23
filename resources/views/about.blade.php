@@ -16,7 +16,7 @@
 
         <div class="text-content">
             <hr class="featurette-divider text-divider">
-            <h1 id="titre"> NOTRE HISTOIRE, NOS VALEUR NOTRE, ENGAGEMENT </h1>
+            <h1 id="titre"> NOTRE HISTOIRE, NOS VALEUR, NOTRE ENGAGEMENT </h1>
             <br>
             <h2>"Au début de l'histoire il n'y avait rien, si ce n'est l 'espoir fou qu'un jour, demain pouvait être
                 meilleur "

@@ -55,7 +55,7 @@
 
 </head>
 
-<body style="padding-top: 120px;">
+<body style="padding-top: 120px; overflow-x:hidden; width:100%" ;>
 
 
     @include('navbar')

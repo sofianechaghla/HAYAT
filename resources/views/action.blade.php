@@ -1,27 +1,34 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="album py-5 bg-light">
+
+
+
+    <div class="album py-5 bg-light" style="padding-top: 120px !important">
         <div class="container">
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src=".\img\img2\img6.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            <div class="row ">
+                @foreach ($posts as $post)
+                    <div class="col-md-6 col-12">
+                        <div class="card mb-4 box-shadow">
+                            <div class="card-img-top">
+                                {!! $post->body !!}
+
+
+                            </div>
+                            <div class="card-body">
+                                <h1>{{ $post->title }}</h1>
+                                <p class="card-text">{{ $post->excerpt }}</p>
+                                <div class="d-flex justify-content-between align-items-center">
+
                                 </div>
-                                <small class="text-muted">9 mins</small>
                             </div>
                         </div>
                     </div>
 
 
+                @endforeach
+            </div>
 
 
-                @endsection
+        @endsection

@@ -34,5 +34,10 @@ class HomeController extends Controller
         return view('action');
         
     }
+    public function eau()
+    {
+        return view('eau');
+        
+    }
    
 }

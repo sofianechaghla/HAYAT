@@ -121,6 +121,11 @@ body {
 
 
 
-/* ACTION */
+/*  PAGE EAU */
 
-
+.eau{
+    width: 100%;
+}
+.ytp-cued-thumbnail-overlay{
+    justify-content: center;
+}

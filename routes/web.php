@@ -25,3 +25,4 @@ Route::get('/',[App\Http\Controllers\MainController::class, 'welcome']);
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 Route::get('/action', [App\Http\Controllers\PagesController::class, 'action'])->name('action');
 Route::get('/eau', [App\Http\Controllers\EauController::class, 'eau'])->name('eau');
+Route::get('/don', [App\Http\Controllers\HomeController::class, 'don'])->name('don');

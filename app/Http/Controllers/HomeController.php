@@ -39,5 +39,10 @@ class HomeController extends Controller
         return view('eau');
         
     }
+    public function don()
+    {
+        return view('don');
+        
+    }
    
 }

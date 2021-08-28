@@ -19,7 +19,8 @@
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Faire un DON <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{{ route('don') }}">Faire un DON <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 @guest
                     @if (Route::has('login'))
@@ -43,7 +44,7 @@
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
-                                                                                     document.getElementById('logout-form').submit();">
+                                                                                         document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
 

@@ -129,17 +129,11 @@ body {
 .ytp-cued-thumbnail-overlay{
     justify-content: center;
 }
-.imgdon{
-   
- 
 
-        background-image: url('https://i.ibb.co/Sxvd3cR/img7.jpg');
-       background-position: center center;
-       background-repeat: no-repeat;
-       /* background-attachment: fixed; */
-       background-size: cover;
+/* PAGE DON  */
+.imgdon{
+        background-color: black !important;
+      
+}  
+
    
-   
-       height: 50vh;
-   
-   }

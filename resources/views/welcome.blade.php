@@ -34,52 +34,35 @@
     </main>
 
     <!-- Marketing messaging and featurettes
-                                      ================================================== -->
+                                                                                                                                                                                              ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-12">
 
-                <!-- <svg class=" bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                                              role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                                              <title>Placeholder</title> -->
+                <title>President</title>
                 <img class="photo1" src="./img/photo1.png" />
-                <!-- <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text> -->
+                <h2>Chaghla sofiane</h2>
+                <p>Fondateur de l'association HAYAT.</p>
 
-
-                <h2>Michel cohen</h2>
-                <p>Some representative placeholder content for the three columns of text below the carousel. This is the
-                    first
-                    column.</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                    role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-                </svg>
+            <div class="col-lg-4 col-12">
 
-                <h2>Heading</h2>
-                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
-                    column.
+                <title>Trésorier</title>
+                <img class="photo1" src="./img/photo1.png" />
+
+                <h2>Mady mehdi</h2>
+                <p>Co-fondateur de HAYAT et responsable logitiques.
                 </p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                    role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
+            <div class="col-lg-4 col-12">
+                <img class="photo1" src="./img/photo1.png" />
 
-                <h2>Heading</h2>
-                <p>And lastly this, the third column of representative placeholder content.</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <h2>Bouch omar</h2>
+                <p>? "okhty Salam.</p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -93,27 +76,35 @@
             <hr class="featurette-divider">
             @if ($loop->iteration % 2 == 0)
                 <div class="row-featurette">
-                    <div class="col-md-5">
+                    <div class="col-md-5 smart">
                         <img class="fearturette-img" src="{{ $article->urlToImage }}" alt="" height="100%" width="100%">
 
 
                     </div>
-                    <div class="col-md-7">
-                        <h2 class="ml-5 featurette-heading"> {{ $article->title }}</h2>
-                        <p class="ml-5 lead">{{ $article->description }}</p>
-                        <a href="{{ $article->url }}" target="_blank"><button></button></a>
+                    <div class="col-md-7 col-12">
+                        <h2 class=" featurette-heading"> {{ $article->title }}</h2>
+                        <p class=" lead">{{ $article->description }}</p>
+                        <a href="{{ $article->url }}" target="_blank">
+                            <button type="button" class="button">
+                                <span>Lire la suite!</span>
+                            </button>
+                        </a>
                     </div>
 
                 </div>
             @else
 
                 <div class="row-featurette">
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-sm-12">
                         <h2 class="featurette-heading"> {{ $article->title }}</h2>
                         <p class="lead">{{ $article->description }}</p>
-                        <a href="{{ $article->url }}" target="_blank"><button></button></a>
+                        <a href="{{ $article->url }}" target="_blank">
+                            <button type="button" class="button">
+                                <span>Lire la suite!</span>
+                            </button>
+                        </a>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 smart">
                         <img class="fearturette-img" src="{{ $article->urlToImage }}" alt="" height="100%" width="100%">
 
 

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="body">
-        <div class="box">
+    <div class="body col-md-12">
+        <div class="box ">
             <span style="--i:1;"><img src=".\img\img2\img1.jpg"></span>
             <span style="--i:2;"><img src=".\img\img2\img2.jpg"></span>
             <span style="--i:3;"><img src=".\img\img2\img3.jpg"></span>
@@ -16,10 +16,10 @@
 
         <div class="text-content">
             <hr class="featurette-divider text-divider">
-            <h1 id="titre"> NOTRE HISTOIRE, NOS VALEUR, NOTRE ENGAGEMENT </h1>
+            <h1 id="titre"> NOTRE HISTOIRE, NOS VALEUR, NOTRE ENGAGEMENT ! </h1>
             <br>
             <h2>"Au début de l'histoire il n'y avait rien, si ce n'est l 'espoir fou qu'un jour, demain pouvait être
-                meilleur "
+                meilleur."
             </h2>
             <br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt vitae reprehenderit. Culpa placeat

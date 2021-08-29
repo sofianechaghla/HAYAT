@@ -3,7 +3,7 @@
 
 
 
-    <div class="album py-5 bg-light" style="padding-top: 120px !important">
+    <div class="album py-5 bg-light">
         <div class="container">
 
             <div class="row ">

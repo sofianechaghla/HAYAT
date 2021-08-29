@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="body col-md-12">
+    <div class="rotation  col-md-12">
         <div class="box ">
             <span style="--i:1;"><img src=".\img\img2\img1.jpg"></span>
             <span style="--i:2;"><img src=".\img\img2\img2.jpg"></span>

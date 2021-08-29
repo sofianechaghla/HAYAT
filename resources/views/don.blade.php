@@ -1,22 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-    {{-- <div class="imgdon">
-        <div class="d-flex ">
-            <div class="m-auto pt-5 pt-5 text-center">
-                <h4 class="display-2 text-dark mb-5">
-                    Qui sommes nous ?
-                </h4>
 
-
-
-            </div>
-        </div>
-    </div> --}}
-    {{-- <div class="contenant row h-50">
-        <img class="col-12 h-100" src=".\img\img2\img7.jpg" alt="image">
-        <div class="texte_centrer">Exemple de texte</div>
-    </div> --}}
     <div class="jumbotron imgdon text-white">
         <div class="container">
             <h1 class="display-3">Bonjour, le monde!</h1>

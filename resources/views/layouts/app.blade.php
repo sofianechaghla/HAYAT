@@ -10,6 +10,7 @@
     <title>Carousel Template · Bootstrap v4.6</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/carousel/">
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./css/abc.css">
     <link rel="stylesheet" href="./css/carousel.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">

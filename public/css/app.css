@@ -149,9 +149,7 @@ body {
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
-/* * {
-  font-family: Roboto;
-} */
+
 
 .footer-distributed {
 	background: #444;
@@ -412,6 +410,9 @@ section {
 
 
 /* page qui nous somme */
+.text-content {
+    font-family: 'Raleway',sans-serif !important;
+}
 /* rotation image galery 3D */
 .rotation {
     padding: 0 20px;
@@ -423,6 +424,7 @@ section {
     min-height: 70vh !important;
     background: #fff !important;
     width: 100%;
+    overflow-x: hidden !important;
 }
 .box {
     
@@ -465,7 +467,7 @@ section {
 
 #titre {
     
-    font-family:'Times New Roman', Times, serif ;
+    font-family:'Raleway',sans-serif !important ;
     text-align: center;
 }
 .text-content{
@@ -493,5 +495,6 @@ section {
 /* PAGE DON  */
 .imgdon{
         background-color: black !important;
+        margin-bottom: 0px !important;
       
 }  

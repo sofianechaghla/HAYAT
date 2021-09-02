@@ -13,15 +13,15 @@
             <span style="--i:8;"><img src=".\img\img2\img8.jpg"></span>
         </div>
 
-
         <div class="text-content">
             <hr class="featurette-divider text-divider">
             <h1 id="titre"> NOTRE HISTOIRE, NOS VALEUR, NOTRE ENGAGEMENT ! </h1>
             <br>
-            <h2>"Au début de l'histoire il n'y avait rien, si ce n'est l 'espoir fou qu'un jour, demain pouvait être
+            <p>"Au début de l'histoire il n'y avait rien, si ce n'est l 'espoir fou qu'un jour, demain pouvait être
                 meilleur."
-            </h2>
+            </p>
             <br>
+            <h2> Notre histoire :</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt vitae reprehenderit. Culpa placeat
                 nulla et
                 molestiae nam beatae! Ullam aperiam doloremque quasi consequatur blanditiis ab nesciunt iure veritatis quod
@@ -33,25 +33,20 @@
                 doloribus
                 tempore aperiam? Dolores non aperiam ipsam et reprehenderit aliquid fugiat totam odit, aliquam, fuga iste?
                 Eveniet!
-            </p>
+            </p><br>
+            <h2>Nos valeur :</h2> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum unde voluptates aliquid et, similique autem
+                minus rerum veniam! Labore illum eos debitis voluptatum libero ipsum sequi necessitatibus nihil provident.
+                Accusantium eaque a facere fugiat facilis autem, hic aperiam nihil ullam suscipit ipsa quasi quis enim
+                commodi porro nulla omnis. Eos!</p>
+            <br>
+            <h2>NOTRE ENGAGEMENT :</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, voluptatum modi! Numquam fugit harum
+                quaerat laboriosam aliquid nemo alias debitis veniam minima aspernatur velit omnis excepturi temporibus,
+                dolor unde fuga eligendi! Labore alias quasi perferendis est dolore, minima quos optio veniam atque fugit
+                doloremque commodi eos magnam maxime mollitia velit molestias, aspernatur consequatur numquam ut earum illo
+                dicta ipsa eum. Aut sapiente inventore nostrum dolor nesciunt vero iusto exercitationem eum?</p>
         </div>
-
-
-
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @endsection

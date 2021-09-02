@@ -4,7 +4,7 @@
 
 
 
-    <div class="album py-5 bg-light" style="padding-top: 120px !important">
+    <div class="album py-5 bg-light">
         <div class="container">
 
             <div class="row ">
@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div class="card mb-4 box-shadow">
-                            <div class="card-img-top">
+                            <div class="card-img-top " style="height: 400px;">
                                 {!! $post->body !!}
 
 

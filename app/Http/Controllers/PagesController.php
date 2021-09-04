@@ -9,7 +9,7 @@ class PagesController extends Controller
 public function action()
 {
     $posts = WinkPost::with('tags')
-    
+    ->live()
         ->orderBy('publish_date','DESC')
         ->paginate(12);
 

@@ -33,7 +33,7 @@
     </main>
 
     <!-- Marketing messaging and featurettes
-                                                                                                                                                                                                                                                                              ================================================== -->
+                                                                                                                                                                                                                                                                                  ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
@@ -44,7 +44,7 @@
 
                 <title>President</title>
                 <img class="photo1" src="./img/photo1.png" />
-                <h2>Chaghla sofiane</h2>
+                <h2>OUKIDJA YASSINE</h2>
                 <p>Fondateur de l'association HAYAT.</p>
 
             </div><!-- /.col-lg-4 -->

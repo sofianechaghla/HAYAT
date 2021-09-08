@@ -5,7 +5,7 @@
 
       <div class="footer-left">
 
-          <h3>Company<span>logo</span></h3>
+          <h3>HAYAT<span>logo</span></h3>
 
           <p class="footer-links">
               <a href="#">Home</a>
@@ -21,7 +21,7 @@
               <a href="#">Contact</a>
           </p>
 
-          <p class="footer-company-name">Company Name © 2015</p>
+          <p class="footer-company-name">Company HAYAT © 2021</p>
 
           <div class="footer-icons">
 
@@ -37,12 +37,22 @@
       <div class="footer-right">
 
           <p>Contact Us</p>
+          @if (Session::has('message_sent'))
+              <div class="alert alert-success" role="alert">
+                  {{ Session::get('message_sent') }}
 
-          <form action="#" method="post">
 
-              <input type="text" name="email" placeholder="Email">
+          @endif
+          <form method="post" action="{{ route('contact.send') }}" enctype="multipart/form-data">
+              @csrf
+
+              <input type="text" name="name" placeholder="Nom" class="from-control">
+
+              <input type="text" name="phone" placeholder="Numéro de telephone" class="from-control">
+
+              <input type="text" name="email" placeholder="Email" class="from-control">
               <textarea name="message" placeholder="Message"></textarea>
-              <button>Send</button>
+              <button type="submit">Envoyer</button>
 
           </form>
 

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -27,3 +28,5 @@ Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->nam
 Route::get('/action', [App\Http\Controllers\PagesController::class, 'action'])->name('action');
 Route::get('/eau', [App\Http\Controllers\EauController::class, 'eau'])->name('eau');
 Route::get('/don', [App\Http\Controllers\HomeController::class, 'don'])->name('don');
+Route::get('/footer',[ContactController::class,'contact']);
+Route::post('/send-message',[ContactController::class,'sendmail'])->name('contact.send');

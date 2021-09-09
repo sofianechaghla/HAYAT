@@ -1,10 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container" style="height:400px ; padding-top:20px" !important;>
-        <p>Pourquoi s'authentifier pour faire un Don <br>cela nous permettra de vous créer un espace personnel ou vous
-            trouverez l'historique de
-            vos don et reclamer un fiche fiscal pour la deduction des impôts</p>
+    <div class="container" style=" padding-top:20px" ;!important;>
+
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">

@@ -26,12 +26,11 @@
 
 </head>
 
-<body style="padding-top: 120px; overflow-x:hidden; width:100%" ;>
+<body style="padding-top: 120px; overflow-x:hidden; width:100%;">
 
     @include('navbar')
-
     @yield('content')
-
+    @include('footer')
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -40,9 +39,9 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
 
+
+
+
 </body>
-
-@include('footer')
-
 
 </html>

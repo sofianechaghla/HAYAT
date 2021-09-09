@@ -5,7 +5,7 @@
 
       <div class="footer-left">
 
-          <h3>HAYAT<span>logo</span></h3>
+          <h3>HAYAT</h3>
 
           <p class="footer-links">
               <a href="#">Home</a>
@@ -23,14 +23,14 @@
 
           <p class="footer-company-name">Company HAYAT © 2021</p>
 
-          <div class="footer-icons">
+          {{-- <div class="footer-icons">
 
               <a href="#"><i class="fa fa-facebook"></i></a>
               <a href="#"><i class="fa fa-twitter"></i></a>
               <a href="#"><i class="fa fa-linkedin"></i></a>
               <a href="#"><i class="fa fa-github"></i></a>
 
-          </div>
+          </div> --}}
 
       </div>
 
